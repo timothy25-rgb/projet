@@ -1,0 +1,83 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Survey Form</title>
+</head>
+<body>
+    <form action="">
+        <h1 style="text-align:center; color:blue;">Form Project - Survei</h1>
+
+    
+        <label for="Name">Name: </label>
+        <input type="text" name="user_name" id="Name" placeholder="Your Name">
+        <label for="Major">Major: </label>
+        <input type="text" name=user_major" id="Major" placeholder="Your Major"> <br><br>
+    
+
+        <fieldset>
+            <legend style="color: blue;">Your Details</legend>
+        <label for="Email">Email: </label>
+        <input type="email" name="user_email" id="email" placeholder="example@domain.com"><br><br>
+
+        Gender:
+        <input id="Female" type="radio" name="Gender" value="f"
+        <label for="Female">Female</label>
+         <input id="Male" type="radio" name="Gender" value="m"
+        <label for="Male">Male</label> <br><br>
+
+        Grade:
+        <select name="Grade"> 
+            <option value="Freshmen">Freshmen</option>
+            <option value="Sophomore">Sophomore</option>
+            <option value="Junior">Junior</option>
+            <option value="Senior">Senior</option>
+
+        </select> 
+        </fieldset>
+
+    <br>
+    
+        <fieldset>
+            <legend style="color: blue;">Semester Feedback</legend></b>
+              How is your semester going? 
+        <select name="Grade"> 
+            <option value="Unsatisfied">Unsatisfied</option>
+            <option value="Slightly Satisfied">Slightly Satisfied</option>
+            <option value="Satisfied">Satisfied</option>
+            <option value="Very Satisfied">Very Satisfied</option>
+            <option value="Delighted">Delighted</option>
+
+        </select> 
+        <br>
+
+    <br>
+        Which subject are challenging? 
+        <br>
+        <input type="checkbox" name="service" value="Web" checked /> Web
+            <input type="checkbox" name="service" value="Python" /> Python
+            <input type="checkbox" name="service" value="English" /> English
+         <input type="checkbox" name="service" value="Math" /> Math
+            
+         
+        <br>
+        <br>
+        Favorite day of the week: <br>
+        <input id="Monday" type="radio" name="day" value="m" /> Monday
+        <input id="Tuesday" type="radio" name="day" value="tu" />Tuesday
+        <input id="Wednesday" type="radio" name="day" value="w"/>Wednesday
+        <input id="Thursday" type="radio" name="day" value="th"/>Thursday
+        <input id="Friday" type="radio" name="day" value="f"/> Friday
+<br><br>
+
+         Additional Comments:<br>
+           <textarea name="comments" cols="20" rows="4" placeholder="Your Feedback"></textarea>
+           <br>
+        </fieldset>
+
+        <br>
+        <button type="submit" style="color: blue;">Submit Survei</button>
+    </form>
+</body>
+</html>
